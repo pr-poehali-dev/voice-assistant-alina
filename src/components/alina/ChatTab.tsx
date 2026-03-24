@@ -37,7 +37,7 @@ export default function ChatTab() {
     const userMsg: Message = { id: Date.now(), role: "user", text: input, time };
     const alinaMsg: Message = {
       id: Date.now() + 1, role: "alina",
-      text: "Отличный вопрос! Я готова помочь. Скоро здесь появятся умные ответы в реальном времени — для этого нужно подключить ИИ.",
+      text: "Привет! Чат с Алиной скоро будет доступен. Пока загляни в другие разделы — там много полезного для подготовки к урокам.",
       time
     };
     setMessages(prev => [...prev, userMsg, alinaMsg]);
