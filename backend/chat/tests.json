@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "Алина отвечает на вопрос",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "message": "Сколько будет 2 + 2?",
+        "messages": []
+      },
+      "expectedStatus": 200,
+      "expectedBody": { "reply": "string" },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
